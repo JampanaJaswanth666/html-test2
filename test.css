@@ -1,0 +1,68 @@
+h1 {
+    font-family: Arial, sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    text-align: justify;
+}
+
+.card {
+    border: 1px solid gray; 
+    padding: 20px; 
+    margin: 10px; 
+    max-width: 300px; 
+    background-color: #f9f9f9;
+    border-radius: 5px; 
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+    height: 100vh;
+}
+
+.color-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.color-button:hover {
+    background-color: darkblue;
+}
